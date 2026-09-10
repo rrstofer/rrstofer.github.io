@@ -29,6 +29,7 @@ The application is deployed through Vercel and has been developed iteratively wi
 
 [![Open Repository](https://img.shields.io/badge/GitHub-View_Repository-green?logo=GitHub)](https://github.com/rrstofer/workout-tracker)
 
+---
 
 ### California Opioid & MOUD Prescribing Dashboard
 
@@ -49,6 +50,8 @@ The dashboard provides a longitudinal view of California prescribing patterns, a
 **Tools:** Python, SQL, Tableau
 
 **Team:** Ryan Stofer
+
+---
 
 ### IMD Solutions Inc. - GlucoGuard
 (_Jan 2024 - June 2024_)
