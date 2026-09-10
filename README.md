@@ -3,6 +3,53 @@
 ---
 ---
 
+### Workout Tracker
+
+(*May 2026 – Present*)
+
+**Overview:** I developed a full-stack workout tracking application designed to make recording workouts and monitoring strength progression simple and accessible across devices. The application allows users to log workouts, exercises, sets, repetitions, and weights while maintaining historical workout data that can be used to analyze long-term progress.
+
+The application was built as a Progressive Web App (PWA) using React and Vite, with Firebase Authentication for user authentication and Cloud Firestore for persistent data storage. User data is isolated by account, allowing each user to maintain their own workout history and records. The application supports Google authentication and stores workout sessions using a structured Firestore data model containing exercises and individual sets.
+
+![Workout Tracker](/assets/img/Workout_Tracker.png)
+
+A major focus of the project has been automating the process of recording workouts. The application can reference previous workouts to pre-populate exercise information, reducing the amount of manual data entry required during a workout. Users can record weights and repetitions on a per-set basis and organize exercises according to different training variations, including incline, decline, and unilateral movements.
+
+I also developed analytics features to turn historical workout data into meaningful measures of progression. These include workout volume, estimated one-repetition maximums, consistency scores, personal records, and trends over time. Personal-record detection can identify new records for individual exercises, equipment, and variations, with visual feedback when a new PR is achieved.
+
+The application is deployed through Vercel and has been developed iteratively with an emphasis on responsive mobile use, data validation, and a simple workout-logging workflow. I have also used AI-assisted coding tools, including Codex and GitHub Copilot, as part of the development process to accelerate implementation, debugging, and feature development while reviewing and integrating the generated code myself.
+
+**Improvements:** Future development could include expanding workout analytics, adding additional progression metrics, improving exercise organization and customization, and expanding the application's offline and mobile capabilities. Additional visualization features could also provide users with more detailed insights into strength progression, training volume, and workout consistency.
+
+**Technical Skills:** Full-Stack Development, Front-End Development, Database Design, Data Modeling, Data Validation, Data Visualization, Progressive Web Apps
+
+**Tools:** JavaScript, React, Vite, Firebase Authentication, Cloud Firestore, Vercel, Git, GitHub
+
+**Team:** Ryan Stofer
+
+[![Open Repository](https://img.shields.io/badge/GitHub-View_Repository-green?logo=GitHub)](https://github.com/rrstofer/workout-tracker)
+
+
+### California Opioid & MOUD Prescribing Dashboard
+
+(*May 2025 – June 2025*)
+
+**Overview:** I developed an interactive Tableau dashboard analyzing prescription trends for opioids and medications for opioid use disorder (MOUD) across California from 2010 to 2023. The project focused on transforming large-scale prescription data into an accessible tool for examining how prescribing patterns changed over time and varied across geographic and demographic groups.
+
+I worked with prescription and healthcare datasets that required data cleaning, transformation, validation, and integration before they could be used for visualization. I designed the dashboard to allow users to explore trends in opioid and MOUD prescribing across California, with filters and interactive visualizations that enable comparisons across years, geographic areas, demographic characteristics, and other relevant prescription attributes.
+
+The dashboard provides a longitudinal view of California prescribing patterns, allowing users to identify changes in opioid utilization and MOUD adoption over the 2010–2023 period. The interactive design was intended to make complex prescription data easier to interpret and support public-health research and decision-making.
+
+![CA Opioid Dashboard](/assets/img/CA_Opioid_Dashboard.png)
+
+**Improvements:** Future improvements could include incorporating additional years of prescription data as they become available, expanding the dashboard's geographic and demographic analyses, and adding additional measures of prescribing intensity and patient access. Further integration with other public-health datasets could also provide additional context for understanding changes in opioid and MOUD prescribing patterns across California.
+
+**Technical Skills:** Data Cleaning, Data Transformation, Data Visualization, Exploratory Data Analysis
+
+**Tools:** Python, SQL, Tableau
+
+**Team:** Ryan Stofer
+
 ### IMD Solutions Inc. - GlucoGuard
 (_Jan 2024 - June 2024_)
 
