@@ -1,11 +1,14 @@
 title: Ryan Stofer
-logo: assets/img/Profile_Picture_Circle.png
-description: >
+logo: /assets/img/Profile_Picture_Circle.png
 
-  <p align="center">
-  <a href="mailto:rrstofer@gmail.com">Email</a> |
-  <a href="https://www.linkedin.com/in/ryan-stofer/">LinkedIn</a> |
-  <a href="https://github.com/rrstofer">GitHub</a> 
-  </p>
-  Data Science graduate from UC Irvine (December 2024) with hands-on experience in machine learning, statistical modeling, and predictive analytics in healthcare settings. Strong interest in deep learning, computer vision, and end-to-end ML model development and deployment.
-theme: jekyll-theme-minimal
+description: >
+  Data Scientist and Software Developer building data-driven applications,
+  machine learning models, and analytics tools.
+
+show_downloads: false
+
+plugins:
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
