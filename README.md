@@ -28,7 +28,7 @@ The application is deployed through Vercel and has been developed iteratively wi
 **Team:** Ryan Stofer
 
 [![Open Repository](https://img.shields.io/badge/GitHub-View_Repository-green?logo=GitHub)](https://github.com/rrstofer/workout-tracker)
-
+[![Open App](https://img.shields.io/badge/Web_App-Open_App-green)](https://ryan-tuna-wt.vercel.app/) [![Open Repository](https://img.shields.io/badge/GitHub-View_Repository-green?logo=GitHub)](https://github.com/rrstofer/workout-tracker)
 ---
 
 ### California Opioid & MOUD Prescribing Dashboard
@@ -50,6 +50,8 @@ The dashboard provides a longitudinal view of California prescribing patterns, a
 **Tools:** Python, SQL, Tableau
 
 **Team:** Ryan Stofer
+
+[![View Dashboard](https://img.shields.io/badge/Tableau-View_Dashboard-green?logo=tableau&logoColor=green)](https://public.tableau.com/app/profile/ryan.stofer/viz/ISPOR2025Dashboard-ByPrescription/CURESDashboard)
 
 ---
 
