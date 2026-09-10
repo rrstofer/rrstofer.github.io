@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title }} | Portfolio</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  {% seo %}
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+
+      <a class="nav-name" href="{{ '/' | relative_url }}">
+        Ryan Stofer
+      </a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <main class="site-container">
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">DATA SCIENCE • MACHINE LEARNING • SOFTWARE</p>
+
+        <h1>Ryan Stofer</h1>
+
+        <h2>
+          Data Scientist & Software Developer
+        </h2>
+
+        <p class="hero-description">
+          I build data-driven applications, machine learning models,
+          and analytics tools across healthcare, scientific computing,
+          and software development.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a
+            class="button primary"
+            href="https://github.com/rrstofer"
+            target="_blank">
+            GitHub
+          </a>
+
+          <a
+            class="button secondary"
+            href="https://www.linkedin.com/in/ryan-stofer/"
+            target="_blank">
+            LinkedIn
+          </a>
+
+          <a
+            class="button secondary"
+            href="mailto:rrstofer@gmail.com">
+            Email
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="{{ '/assets/img/Profile_Picture_Circle.png' | relative_url }}"
+          alt="Ryan Stofer">
+      </div>
+
+    </section>
+
+
+    <section id="about" class="section">
+
+      <div class="section-heading">
+        <span>01</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-content">
+
+        <p>
+          I'm a Data Scientist and software developer with an M.S. in
+          Data Science from UC Irvine and a background in applied
+          mathematics and statistics.
+        </p>
+
+        <p>
+          My experience spans machine learning, statistical modeling,
+          healthcare analytics, data visualization, deep learning,
+          and full-stack application development.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <section id="projects" class="section">
+
+      <div class="section-heading">
+        <span>02</span>
+        <h2>Featured Projects</h2>
+      </div>
+
+      {{ content }}
+
+    </section>
+
+
+    <section id="skills" class="section">
+
+      <div class="section-heading">
+        <span>03</span>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="tags">
+            <span>Python</span>
+            <span>R</span>
+            <span>SQL</span>
+            <span>JavaScript</span>
+            <span>C++</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Machine Learning</h3>
+          <div class="tags">
+            <span>PyTorch</span>
+            <span>TensorFlow</span>
+            <span>Machine Learning</span>
+            <span>Deep Learning</span>
+            <span>Computer Vision</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Development</h3>
+          <div class="tags">
+            <span>React</span>
+            <span>Vite</span>
+            <span>Firebase</span>
+            <span>Firestore</span>
+            <span>Git</span>
+            <span>Vercel</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Analytics</h3>
+          <div class="tags">
+            <span>Tableau</span>
+            <span>Data Visualization</span>
+            <span>Statistical Modeling</span>
+            <span>Data Analysis</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="contact" class="section contact-section">
+
+      <div class="section-heading">
+        <span>04</span>
+        <h2>Let's Connect</h2>
+      </div>
+
+      <p>
+        I'm interested in opportunities involving data science,
+        machine learning, AI, and software development.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a
+          class="button primary"
+          href="mailto:rrstofer@gmail.com">
+          Email Me
+        </a>
+
+        <a
+          class="button secondary"
+          href="https://github.com/rrstofer"
+          target="_blank">
+          GitHub
+        </a>
+
+        <a
+          class="button secondary"
+          href="https://www.linkedin.com/in/ryan-stofer/"
+          target="_blank">
+          LinkedIn
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <footer>
+      <p>© {{ 'now' | date: "%Y" }} Ryan Stofer</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
