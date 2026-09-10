@@ -5,7 +5,7 @@ title: Projects
 
 ## Workout Tracker
 
-<p class="project-meta">May 2026 – Present</p>
+<p class="project-meta">May 2026 - Present</p>
 
 <p>
   A full-stack Progressive Web App for logging workouts and monitoring strength
@@ -25,7 +25,7 @@ title: Projects
 
 ## California Opioid & MOUD Prescribing Dashboard
 
-<p class="project-meta">May 2025 – June 2025</p>
+<p class="project-meta">May 2025 - June 2025</p>
 
 <p>
   An interactive Tableau dashboard analyzing opioid and MOUD prescription trends
@@ -81,7 +81,7 @@ title: Projects
 
 ---
 
-## SLAC Capstone — Deep Learning for Protein Crystallography
+## SLAC Capstone - Deep Learning for Protein Crystallography
 
 <p class="project-meta">2024</p>
 
@@ -122,7 +122,7 @@ title: Projects
 
 ---
 
-## MADO Presentation — GlucoGuard
+## MADO Presentation - GlucoGuard
 
 <p class="project-meta">2024</p>
 
@@ -163,11 +163,11 @@ title: Projects
 
 ## National Hate Crime Model
 
-<p class="project-meta">January 2022 – March 2022</p>
+<p class="project-meta">January 2022 - March 2022</p>
 
 <p>
   A machine learning project classifying hate crime offenders' race using FBI
-  Crime Data Explorer records (2010–2019). Evaluated Random Forest, Naive
+  Crime Data Explorer records (2010-2019). Evaluated Random Forest, Naive
   Bayes, Boosting, and Logistic Regression models.
 </p>
 
