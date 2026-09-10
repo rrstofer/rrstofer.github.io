@@ -27,7 +27,6 @@ The application is deployed through Vercel and has been developed iteratively wi
 
 **Team:** Ryan Stofer
 
-[![Open Repository](https://img.shields.io/badge/GitHub-View_Repository-green?logo=GitHub)](https://github.com/rrstofer/workout-tracker)
 [![Open App](https://img.shields.io/badge/Web_App-Open_App-green)](https://ryan-tuna-wt.vercel.app/) [![Open Repository](https://img.shields.io/badge/GitHub-View_Repository-green?logo=GitHub)](https://github.com/rrstofer/workout-tracker)
 ---
 
