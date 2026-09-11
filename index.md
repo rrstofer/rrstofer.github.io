@@ -4,7 +4,7 @@ title: Portfolio
 ---
 
 <!-- =========================
-     FEATURED PROJECTS
+     RECENT PROJECTS
 ========================= -->
 
 <section id="projects" class="section">
