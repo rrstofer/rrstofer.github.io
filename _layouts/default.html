@@ -34,6 +34,10 @@
 
   <main class="site-container">
 
+    <!-- =========================
+         HERO
+    ========================= -->
+
     <section class="hero">
 
       <div class="hero-content">
@@ -79,13 +83,19 @@
       </div>
 
       <div class="hero-image">
+
         <img
           src="{{ '/assets/img/headshot_pfp.jpg' | relative_url }}"
           alt="Ryan Stofer">
+
       </div>
 
     </section>
 
+
+    <!-- =========================
+         ABOUT
+    ========================= -->
 
     <section id="about" class="section">
 
@@ -110,12 +120,26 @@
 
       </div>
 
+    </section>
+
+
+    <!-- =========================
+         PAGE CONTENT
+         Comes from index.md
+    ========================= -->
+
+    {{ content }}
+
+
+    <!-- =========================
+         FOOTER
+    ========================= -->
+
     <footer>
       <p>© {{ 'now' | date: "%Y" }} Ryan Stofer</p>
     </footer>
 
   </main>
-  </section>
-  
+
 </body>
 </html>
